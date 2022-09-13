@@ -1,0 +1,132 @@
+body {
+  margin: 0px;
+  text-align: center;
+  font-family: 'Merriweather', serif;
+}
+
+h1 {
+  color: #3FA796;
+  font-size: 5.625rem;
+  font-family: 'Sacramento', cursive;
+}
+
+h2 {
+  color: #3FA796;
+  font-size: 2.5rem;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: normal;
+}
+
+h3 {
+  font-family: 'Montserrat', sans-serif;
+  color: #11999E;
+}
+
+hr {
+  border: none;
+  border-top: 6px dotted #AAAAAA;
+  height: 1px;
+  width: 5%;
+}
+
+a {
+  margin: auto 10px;
+  color: #1B2430;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #EAF6F6;
+}
+
+.top-container {
+    background-color: #B1D7B4;
+    position: relative;
+    padding-top: 50px;
+  }
+
+.bottom-container {
+  background-color: #18978F;
+  padding: 10px;
+}
+
+.top1-cloud {
+  position: absolute;
+  left: 540px;
+  top: 250px;
+}
+
+.top-cloud {
+  position: absolute;
+  right: 400px;
+  top: 400px;
+}
+
+.bottom-cloud {
+  position: absolute;
+  left: 450px;
+  bottom: 300px;
+}
+
+.skill-row {
+  width: 50%;
+  margin: 70px auto;
+  text-align: left;
+  line-height: 2;
+}
+
+.frame-img {
+  float: left;
+  padding-right: 30px;
+}
+
+.data-img {
+  float: right;
+  padding-left: 30px;
+  padding-bottom: 10px;
+}
+
+.contact-me {
+  margin: 50px auto 150px;
+}
+
+.btn {
+  background: #34d984;
+  background-image: -webkit-linear-gradient(top, #34d984, #2980b9);
+  background-image: -moz-linear-gradient(top, #34d984, #2980b9);
+  background-image: -ms-linear-gradient(top, #34d984, #2980b9);
+  background-image: -o-linear-gradient(top, #34d984, #2980b9);
+  background-image: linear-gradient(to bottom, #34d984, #2980b9);
+  -webkit-border-radius: 9;
+  -moz-border-radius: 9;
+  border-radius: 9px;
+  font-family: 'Montserrat', sans-serif;
+  color: white;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+  position: relative;
+  left: 0px;
+  top: 70px;
+}
+
+.btn:hover {
+  background: #34d984;
+  background-image: -webkit-linear-gradient(top, #34d984, #010778);
+  background-image: -moz-linear-gradient(top, #34d984, #010778);
+  background-image: -ms-linear-gradient(top, #34d984, #010778);
+  background-image: -o-linear-gradient(top, #34d984, #010778);
+  background-image: linear-gradient(to bottom, #34d984, #010778);
+  text-decoration: none;
+}
+
+.© {
+  font-size: 0.75rem;
+  color: #EAF6F6;
+  padding: 15px;
+}
+
+.about-me {
+  color: #40514E;
+  margin-bottom: 35px;
+}
